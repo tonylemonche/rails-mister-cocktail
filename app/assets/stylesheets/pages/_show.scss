@@ -1,0 +1,41 @@
+.show-container {
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  letter-spacing: 5px;
+  word-spacing: 4px;
+  text-align: center;
+  font-size: 6rem;
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
+  text-shadow: -1px -1px 1px #aaa,
+               0px 4px 1px rgba(0,0,0,0.5),
+               4px 4px 5px rgba(0,0,0,0.7),
+               0px 0px 7px rgba(0,0,0,0.4);
+}
+
+.show-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.show-container {
+  margin: 0 auto;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.details {
+  background-color: white;
+  width: 700px;
+  border-shadow: 10px 10px 5px;
+  padding: 25px;
+  margin: 25px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}

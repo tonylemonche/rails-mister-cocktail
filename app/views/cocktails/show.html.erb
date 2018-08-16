@@ -1,0 +1,44 @@
+<div class="show-container">
+
+  <div class="row">
+
+    <h2 class="name">
+      <%= @cocktail.name %>
+    </h2 class="name">
+
+    <div class="dose"><%= simple_form_for [@cocktail, @dose] do |f| %>
+      <% if @dose.errors.any? %>
+      <div class="errors-container">
+        <ul>
+          <% @dose.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+          <% end %>
+        </ul>
+      </div>
+      <% end %>
+
+    <div class="details">
+      <p><strong>Doses:</strong></p>
+      <% @cocktail.doses.each do |dose| %>
+      <p>
+      <%= dose.description %>
+      </p>
+      <% end %>
+    </div>
+
+      <div class="form-inputs">
+        <%= f.input :description %>
+        <%= f.association :ingredient %>
+      </div>
+
+      <div class="show-buttons">
+        <%= f.button :submit %>
+        <%= link_to 'Back', cocktails_path, class: "btn btn-danger btn-sm" %>
+      </div>
+      <% end %>
+    </div>
+
+  </div>
+
+
+</div>

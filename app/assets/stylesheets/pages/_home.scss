@@ -1,1 +1,76 @@
 // Specific CSS for your home-page
+.banner {
+  color: #DB865A;
+  text-align: center;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 50px;
+}
+
+.divider {
+  margin: 50px;
+}
+/*.banner .btn-mine {
+  margin-top: 20px;
+}
+*/
+
+.btn-mine {
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  background: #DB865A;
+  transition: background 0.3s ease;
+}
+.btn-mine:hover {
+  background: #C67148;
+  text-decoration: none;
+  color: white;
+}
+
+.banner-index {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-index h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner-index p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 50px;
+}
+
+
+
+.mid-inside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cocktail {
+
+}
